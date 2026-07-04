@@ -29,8 +29,6 @@ if ! command -v ffmpeg &> /dev/null; then
     echo
     read -rp "FFmpeg was not found. Install it now? (y/n): " choice
     if [[ "$choice" =~ ^[Yy]$ ]]; then
-        # Installing ffmpeg system-wide via a package manager does require
-        # sudo, but this is a one-time OS-level install, not "running Zwix as root".
         if command -v apt &> /dev/null; then
             sudo apt update && sudo apt install -y ffmpeg
         elif command -v dnf &> /dev/null; then
