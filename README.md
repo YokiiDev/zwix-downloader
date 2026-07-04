@@ -64,8 +64,8 @@ Once launched, Zwix asks for:
 
 Files are saved to:
 
-- Windows: `Desktop/Zwix`
-- Linux: `~/zwix`
+- Windows: `Desktop/Zwix-Downloads`
+- Linux: `~/Zwix-Downloads`
 
 ## Notes
 
