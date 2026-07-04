@@ -1,4 +1,4 @@
-# Zwix
+# ~ Zwix Downloader
 
 Simple command-line tool to download videos/audio of **ANY WEBSITE** as MP4 or MP3.
 
