@@ -1,6 +1,6 @@
 # Zwix
 
-Simple command-line tool to download YouTube videos/audio and Spotify tracks (resolved through YouTube) as MP4 or MP3.
+Simple command-line tool to download videos/audio of **ANY WEBSITE** as MP4 or MP3.
 
 ## Requirements
 
