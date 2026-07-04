@@ -45,11 +45,11 @@ def get_download_path():
     """
     Return the folder where files should be saved, creating it if needed.
     Windows -> Desktop/Zwix
-    Linux   -> ~/zwix (i.e. /home/<user>/zwix)
+    Linux   -> ~/zwix (i.e. /home/<user>/Zwix-Downloads)
     Using the user's home directory avoids needing root/admin permissions.
     """
     if platform.system() == "Windows":
-        download_path = Path.home() / "Desktop" / "Zwix"
+        download_path = Path.home() / "Desktop" / "Zwix-Downloads"
     else:
         download_path = Path.home() / "zwix"
 
